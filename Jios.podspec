@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Jios"
-  spec.version      = "0.0.1"
+  spec.version      = "7.0.0"
   spec.summary      = "Jios is a lightweight SDK for secure mobile authentication."
 
   spec.description  = <<-DESC
