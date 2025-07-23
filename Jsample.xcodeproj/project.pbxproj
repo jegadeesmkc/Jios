@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		38961B432E31404F005CDFD4 /* Jsample.docc in Sources */ = {isa = PBXBuildFile; fileRef = 38961B422E31404F005CDFD4 /* Jsample.docc */; };
 		38961B442E31404F005CDFD4 /* Jsample.h in Headers */ = {isa = PBXBuildFile; fileRef = 38961B412E31404F005CDFD4 /* Jsample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38961B4B2E314093005CDFD4 /* LoggerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38961B4A2E314093005CDFD4 /* LoggerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38961B3E2E31404F005CDFD4 /* Jsample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Jsample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38961B412E31404F005CDFD4 /* Jsample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jsample.h; sourceTree = "<group>"; };
 		38961B422E31404F005CDFD4 /* Jsample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Jsample.docc; sourceTree = "<group>"; };
+		38961B4A2E314093005CDFD4 /* LoggerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		38961B342E31404F005CDFD4 = {
 			isa = PBXGroup;
 			children = (
+				38961B4A2E314093005CDFD4 /* LoggerService.swift */,
 				38961B402E31404F005CDFD4 /* Jsample */,
 				38961B3F2E31404F005CDFD4 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38961B432E31404F005CDFD4 /* Jsample.docc in Sources */,
+				38961B4B2E314093005CDFD4 /* LoggerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,7 @@
 		38961B482E31404F005CDFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -291,6 +296,7 @@
 		38961B492E31404F005CDFD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

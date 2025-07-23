@@ -1,0 +1,11 @@
+framework module Jsample {
+  umbrella header "Jsample.h"
+
+  export *
+  module * { export * }
+}
+
+module Jsample.Swift {
+    header "Jsample-Swift.h"
+    requires objc
+}
