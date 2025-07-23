@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "Jios"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of Jios."
+  spec.summary      = "Jios is a lightweight SDK for handling secure mobile authentication."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Jios SDK provides tools to securely fetch, validate, and share mobile numbers from parent apps.
+  It supports easy integration and customization.
                    DESC
 
   spec.homepage     =  'https://github.com/jegadeesmkc/Jios'
@@ -64,10 +66,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  # spec.ios.deployment_target = "13.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
