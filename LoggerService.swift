@@ -9,6 +9,6 @@ import Foundation
 
 public class LoggerService {
     public static func logString(for strings:String) {
-        print("[Logger service123]-> \(strings)")
+        print("[Logger service print]-> \(strings)")
     }
 }
